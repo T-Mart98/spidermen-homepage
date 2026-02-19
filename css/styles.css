@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-    font-size: 6.25rem;
+    font-size: 4.688rem;
 }
 
 .logo img {
@@ -65,6 +65,7 @@ nav ul {
 nav li {
     margin: 0.625rem;
     padding-top: 6%;
+    font: 2rem;
 }
 
 nav a:hover {
@@ -136,9 +137,9 @@ h5, footer p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1218px) {
     header h1 {
-        font-size: 4.688rem;
+        font-size: 3.75rem;
         margin: 0.938rem;
     }
 
@@ -185,5 +186,9 @@ h5, footer p {
 @media screen and (max-width: 793px) {
     header h1 {
         display: none;
+    }
+
+    .team-description {
+        font-size: 1rem;
     }
 }
